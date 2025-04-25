@@ -1,4 +1,25 @@
-# AtomicReactKit: Project Recipe
+# Figma-to-React POC
+
+This project demonstrates the workflow of taking a Figma design and building a working React component, leveraging Storybook for isolated development and control.
+
+## Goal
+Take a UI element from Figma, break it down using atomic design, and build it as a reusable React component. Use Storybook to develop, document, and manipulate the component in isolation. The end result is a single, production-quality component rendered on a page, fully controllable and documented using this approach and tooling.
+
+## Process
+1. Analyze the Figma design and break it into atomic components.
+2. Set up the project environment (clone, install, run dev server and Storybook).
+3. Build atomic components, add Storybook stories, and assemble pages.
+4. Test components visually and with Jest/React Testing Library.
+5. Review for accessibility and responsiveness.
+
+## How to Run
+- Install dependencies: `npm install`
+- Start the dev server: `npm run dev`
+- Start Storybook: `npm run storybook`
+- Run tests: `npm test`
+
+See the buildout checklist for step-by-step progress.
+
 
 A comprehensive template for building scalable, maintainable, and modern React applications using Atomic Design, TypeScript, Tailwind CSS, Storybook, and Vite.
 
