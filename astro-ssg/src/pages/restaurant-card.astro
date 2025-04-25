@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/SEOLayout.astro';
+import RestaurantCardAstroWrapper from '../components/RestaurantCardAstroWrapper.jsx';
+---
+
+<Layout>
+  <h1 class="text-3xl font-bold mb-6">Featured Restaurant Card (Astro + React)</h1>
+  <RestaurantCardAstroWrapper client:load />
+</Layout>
